@@ -1,0 +1,76 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.header{
+    background-color: gainsboro;
+    width: 100%;
+   
+}
+.header h2{
+    margin: auto;
+    width: 100px;
+    padding: 0px;
+    font-weight: 500;
+    font-size: 30px;
+}
+.header h2:hover{
+    transform: scale(1.2);
+    transition: 1s;
+    color:orangered;
+    box-sizing: border-box;
+
+}
+.bodycont{
+   background-color: honeydew;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+
+}
+.counter{
+
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+}
+.counter h2{
+    padding: 10px;
+    font-size: 35px;
+}
+.count{
+    font-size: 30px;
+    
+}
+.buttons{
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.but1 , .but2 , .but3{
+    padding: 5px;
+    background-color: honeydew;
+    border: 1px solid black;
+    border-radius: 20px;
+    outline: none;
+    font-size: 15px;
+    width: 100px;
+}
+.but1:hover{
+    background-color: black;
+    color: white;
+    transition:0.2s;
+}
+.but2:hover{
+    background-color: black;
+    color: white;
+    transition:0.2s;
+}
+.but3:hover{
+    background-color: black;
+    color: white;
+    transition:0.2s;
+}
